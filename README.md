@@ -71,12 +71,12 @@ The dataset is sourced from Kaggle: **Online Payments Fraud Detection Dataset**
 
 ## 🛠️ Tech Stack
 
-| Component       | Technology                            |
-|----------------|----------------------------------------|
-| Language        | Python                                 |
+| Component       | Technology                             |
+|----------------|-----------------------------------------|
+| Language        | Python                                  |
 | Libraries       | Scikit-learn, XGBoost, Imbalanced-learn |
-| Visualization   | Matplotlib, Seaborn                    |
-| Data Processing | Pandas, NumPy                          |
+| Visualization   | Matplotlib, Seaborn                     |
+| Data Processing | Pandas, NumPy                           |
 
 ---
 
@@ -86,50 +86,49 @@ The dataset is sourced from Kaggle: **Online Payments Fraud Detection Dataset**
 - Python 3.8+
 - Jupyter Notebook or Google Colab
 
-### Steps:
-1. **Install required libraries**:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
-   pip install kaggle
+### Step 1: Install Required Libraries
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
+Step 2: Download the Dataset from Kaggle
+bash
+Copy
+Edit
+pip install kaggle
 kaggle datasets download -d rupakroy/online-payments-fraud-detection-dataset
 unzip online-payments-fraud-detection-dataset.zip
- Usage
-Open UPI-Fraud-Detection.ipynb in Jupyter Notebook or Colab.
+🚀 Usage
+Open UPI-Fraud-Detection.ipynb in Jupyter Notebook or Google Colab.
 
-Execute cells in order to:
-
+Execute the following steps:
 Load and preprocess data
 
 Apply SMOTE for class balancing
 
 Train and evaluate machine learning models
-Models and Evaluation
-Models used:
 
-✅ Random Forest
+📈 Models and Evaluation
+✅ Models Used:
+Random Forest
 
-✅ XGBoost
+XGBoost
 
-✅ Logistic Regression
+Logistic Regression
 
-✅ Decision Tree
+Decision Tree
 
-✅ Gaussian Naive Bayes
+Gaussian Naive Bayes
 
-Evaluation Criteria:
+📌 Evaluation Criteria:
 Confusion Matrix
 
 Classification Report (Precision, Recall, F1-score)
 
 Accuracy Score
- Results
-Decision Tree achieved the highest accuracy: 99.97% with balanced precision and recall.
 
-Random Forest showed good performance, though with slightly lower precision.
+📊 Results
+🏆 Decision Tree achieved the highest accuracy: 99.97% with balanced precision and recall.
 
-Gaussian Naive Bayes underperformed due to its assumptions about data distribution.
+✅ Random Forest showed good performance, though with slightly lower precision.
 
-
-
-
+⚠️ Gaussian Naive Bayes underperformed due to its assumptions about data distribution.
 
